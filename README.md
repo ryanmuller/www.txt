@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-gem install 'wwwtxt'
+gem install wwwtxt
 ```
 
 ## Usage
