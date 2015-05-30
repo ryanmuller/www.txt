@@ -2,6 +2,8 @@ require "htmlentities"
 
 module WwwTxt
   class PlainTextRenderer
+    FORMAT = "txt"
+
     def self.render_from_html(html)
       strip_html(html)
     end

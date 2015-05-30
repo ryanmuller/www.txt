@@ -8,8 +8,16 @@ gem install wwwtxt
 
 ## Usage
 
+(Local)
+
 ```
-wwwtxt get https://raw.githubusercontent.com/ryanmuller/www.txt/master/README.md
+bundle exec bin/wwwtxt -o "~/texts" get https://raw.githubusercontent.com/ryanmuller/www.txt/master/README.md
+```
+
+## Running tests
+
+```
+ruby test/wwwtxt/test_page.rb
 ```
 
 ## Contributing

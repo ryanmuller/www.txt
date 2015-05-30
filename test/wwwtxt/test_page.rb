@@ -6,6 +6,8 @@ class TestPage < Minitest::Test
 
   def constant_fetcher
     Class.new do
+      const_set "FORMAT", "txt"
+
       def self.page(url)
         WwwTxt::Page.new(title, content)
       end
