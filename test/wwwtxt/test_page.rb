@@ -1,6 +1,4 @@
-require "minitest/autorun"
-require "./lib/wwwtxt/page"
-require "./lib/wwwtxt/plain_text_renderer"
+require "test_helper"
 
 class TestPage < Minitest::Test
 

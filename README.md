@@ -17,7 +17,7 @@ bundle exec bin/wwwtxt -o "~/texts" get https://raw.githubusercontent.com/ryanmu
 ## Running tests
 
 ```
-ruby test/wwwtxt/test_page.rb
+rake test
 ```
 
 ## Contributing
