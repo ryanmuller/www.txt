@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = WwwTxt::VERSION
   spec.authors       = ["Ryan Muller"]
   spec.email         = ["cognitionmachine@gmail.com"]
-  spec.description   = %q{CLI for downloading websites as plain text}
+  spec.summary       = %q{CLI for downloading websites as plain text}
   spec.homepage      = ""
   spec.license       = "MIT"
 
