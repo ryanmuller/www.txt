@@ -23,4 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "gli", "2.7.0"
   spec.add_runtime_dependency "htmlentities"
   spec.add_runtime_dependency "ruby-readability"
+  spec.add_runtime_dependency "open_uri_redirections"
 end

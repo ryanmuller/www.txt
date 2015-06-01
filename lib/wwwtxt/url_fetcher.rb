@@ -1,5 +1,6 @@
 require "readability"
 require "open-uri"
+require "open_uri_redirections"
 
 module WwwTxt
   class UrlFetcher
@@ -9,7 +10,7 @@ module WwwTxt
 
     def initialize(url)
       @url = url
-      @document = Readability::Document.new(open(@url).read)
+      @document = Readability::Document.new(open(@url, :allow_redirections => :safe).read)
     end
 
     def page
